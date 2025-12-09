@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ "$SHELL" = "/bin/bash" ]; then
+    # bash initialization
+elif [ "$SHELL" = "/bin/zsh" ]; then
+    # zsh initialization
+fi

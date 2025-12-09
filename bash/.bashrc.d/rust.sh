@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Rust(up) (see https://rustup.rs/)
 if [[ -d "$HOME/.cargo" ]]; then
 	if [ -f "$HOME/.cargo/env" ]; then

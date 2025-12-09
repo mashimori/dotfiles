@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # eza alias
 if command -v eza >/dev/null 2>&1; then
     alias ls='eza --icons=auto --hyperlink --time-style=iso --color=auto --color-scale=all'
