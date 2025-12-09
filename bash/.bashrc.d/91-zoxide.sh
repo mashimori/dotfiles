@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ "$SHELL" = "/bin/bash" ]; then
+if [ -n "$BASH_VERSION" ]; then
     eval "$(zoxide init bash)"
-elif [ "$SHELL" = "/bin/zsh" ]; then
+elif [ -n "$ZSH_VERSION" ]; then
     eval "$(zoxide init zsh)"
 fi

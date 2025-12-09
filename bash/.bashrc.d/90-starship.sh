@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -n "$BASH_VERSION" ]; then
-    # bash initialization
+    eval "$(starship init bash)"
 elif [ -n "$ZSH_VERSION" ]; then
-    # zsh initialization
+    eval "$(starship init zsh)"
 fi
