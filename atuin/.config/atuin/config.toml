@@ -1,0 +1,22 @@
+[overview]
+search_mode = "fuzzy"
+style = "full"
+store_failed = false
+secrets_filter = true
+keymap_mode = "vim-normal"
+
+[stats]
+common_subcommands = [
+  "cargo",
+  "dnf",
+  "docker",
+  "git",
+  "kubectl",
+  "npm",
+  "podman",
+  "systemctl",
+  "tmux",
+]
+common_prefix = [
+  "sudo",
+]
