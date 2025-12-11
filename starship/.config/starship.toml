@@ -32,7 +32,7 @@ palette = 'catppuccin_mocha'
 
 [os]
 disabled = false
-style = "bg:red fg:black"
+style = "bg:red fg:crust"
 
 [os.symbols]
 Windows = ""
